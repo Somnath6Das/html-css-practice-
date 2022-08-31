@@ -1,0 +1,20 @@
+div{
+    color: lightcoral;
+    border:1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+
+
+ /* pesificiticy tag is more valuable and it would be apply even is farther change is value. example: color  */
+div p{
+    color: brown;
+}
+
+
+
+p{
+    border: inherit;
+    margin: inherit;
+    color: green;
+}

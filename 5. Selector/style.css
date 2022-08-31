@@ -1,0 +1,56 @@
+p.error{
+    color: brown;
+}
+p.success{
+    color: green;
+}
+h2.success.feedback{
+    border: 7px solid rgb(26, 180, 12);
+}
+h2#content{
+    background-color: blue;
+    padding: 20px;
+}
+
+/* selector for path  */
+div p {
+    background-color: chocolate;
+}
+div li p {
+    background-color: cornflowerblue;
+}
+div .error {
+    border: 4px dashed red;
+}
+
+/* attribute selector */
+
+/* *= "www" mean all the attributes found .www  included*/
+a[href*="www"]{
+    box-shadow: 2px 3px rebeccapurple;
+}
+
+
+/* $="com" means all the attributes ends with .com included */
+a[href$=".com"] {
+    text-transform: uppercase;
+}
+
+
+a[href]{
+    border:6px solid yellow;
+    text-decoration: none;
+    
+}
+
+a[href="http://www.google.com/"]{
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+
+a[href="http://www.facebook.com/"]{
+    background-color: blue;
+    color: aliceblue;
+}
